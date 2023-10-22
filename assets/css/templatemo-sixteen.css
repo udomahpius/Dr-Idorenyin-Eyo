@@ -12,6 +12,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.no-margin p{
+	margin: 0 !important;
+	/* list-style-type: decimal !important; */
+}
 p {
 	margin-bottom: 0px;
 	font-size: 14px;
@@ -750,7 +754,7 @@ footer .inner-content p a {
 /* Services */
 
 .services {
-	background-image: url(../images/services-bg.jpg);
+	background-image: url(../images/law-journal.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -800,7 +804,9 @@ footer .inner-content p a {
 
 .happy-clients {
 	margin-top: 100px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
+	padding: 5rem 0;
+	background-color: #225862;
 }
 
 .happy-clients .client-item img {
@@ -809,9 +815,19 @@ footer .inner-content p a {
 	transition: all .3s;
 	cursor: pointer;
 }
+@media screen  and (max-width:700px) {
+	.happy-clients .client-item img {
+		max-width: 200px !important;
+		overflow: hidden;
+		transition: all .3s;
+		cursor: pointer;
+	}
+	
+}
 
 .happy-clients .client-item img:hover {
-	opacity: 0.8;
+	background-blend-mode: soft-light;
+	background-color: #952017;
 }
 
 
