@@ -12,6 +12,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.general-color{
+	color: #225862;
+}
 .no-margin p{
 	margin: 0 !important;
 	/* list-style-type: decimal !important; */
@@ -58,7 +61,7 @@ ul.social-icons li a {
 }
 
 ul.social-icons li a:hover {
-	background-color: #f33f3f;
+	background-color: #225862;
 	color: #fff;
 }
 
@@ -92,15 +95,30 @@ a.filled-button:hover {
 	margin-bottom: 15px;
 }
 .products-heading {
-	background-image: url(../images/products-heading.jpg);
+	background-image: url(../images/law-journal.jpg);
+	background-color: #140201;
+	background-blend-mode: soft-light;
+
+}
+.conference-heading {
+	background-image: url(../images/law-conference.jpg);
+	background-color: #225862;
+	background-blend-mode: soft-light;
+
 }
 
+
 .about-heading {
-	background-image: url(../images/about-heading.jpg);
+	background-image: url(../images/law-about.jpg);
+	background-color: #225862;
+	background-blend-mode: soft-light;
 }
 
 .contact-heading {
-	background-image: url(../images/contact-heading.jpg);
+	background-image: url(../images/law-contact.jpg);
+	background-color: #225862;
+	background-blend-mode: soft-light;
+
 }
 
 .page-heading {
@@ -128,7 +146,7 @@ a.filled-button:hover {
 
 #preloader {
   overflow: hidden;
-  background: #f33f3f;
+  background: #225862;
   left: 0;
   right: 0;
   top: 0;

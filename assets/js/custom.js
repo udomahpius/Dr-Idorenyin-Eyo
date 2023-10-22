@@ -176,3 +176,6 @@ jQuery( document ).ready(function( $ ) {
         });
  
 });
+
+
+document.querySelector(".show-year").innerHTML = new Date().getFullYear();
