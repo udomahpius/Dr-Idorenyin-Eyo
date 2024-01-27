@@ -15,6 +15,10 @@ body {
 .general-color{
 	color: #225862;
 }
+.bg-general-color{
+	background-color: #225862;
+}
+
 .no-margin p{
 	margin: 0 !important;
 	/* list-style-type: decimal !important; */
